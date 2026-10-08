@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Pathik Biotech Pvt. Ltd.</title>
+  <meta name="description" content="Contact Pathik Biotech Pvt. Ltd., Nilmatha, Lucknow. Call, email or WhatsApp us.">
+  <link rel="canonical" href="https://www.example.com/contact.html"><!-- TODO: replace with live domain -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us | Pathik Biotech Pvt. Ltd.">
+  <meta property="og:description" content="Contact Pathik Biotech Pvt. Ltd., Nilmatha, Lucknow. Call, email or WhatsApp us.">
+  <meta property="og:image" content="assets/logo/pathik-logo.png">
+  <link rel="icon" type="image/png" href="assets/logo/pathik-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-banner page-banner-sm" aria-labelledby="page-title">
+    <img class="hero-bg" src="assets/images/hero.jpg" alt="" width="1920" height="900">
+    <div class="container"><p class="eyebrow eyebrow-light">CONTACT US</p><h1 id="page-title">Contact Pathik Biotech</h1></div>
+  </section>
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h2>Get in touch</h2>
+        <address>
+          <p><strong>Address</strong><br>Nilmatha, Lucknow - 226002</p>
+          <p><strong>Email</strong><br><a href="mailto:pathikbiotech1@gmail.com">pathikbiotech1@gmail.com</a></p>
+          <p><strong>Phone</strong><br><a href="tel:+919161656601">+91 9161656601</a></p>
+        </address>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="tel:+919161656601"><span data-icon="phone"></span> Call Us</a>
+          <a class="btn btn-outline" href="mailto:pathikbiotech1@gmail.com"><span data-icon="mail"></span> Email Us</a>
+          <a class="btn btn-outline" href="https://wa.me/919161656601" target="_blank" rel="noopener"><span data-icon="chat"></span> WhatsApp Us</a>
+        </div>
+      </div>
+      <form class="contact-form" id="enquiry-form" novalidate>
+        <h2>Send an enquiry</h2>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required aria-describedby="err-name"><p class="field-error" id="err-name"></p></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="err-email"><p class="field-error" id="err-email"></p></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" required aria-describedby="err-phone"><p class="field-error" id="err-phone"></p></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required aria-describedby="err-message"></textarea><p class="field-error" id="err-message"></p></div>
+        <button class="btn btn-primary" type="submit">Send Enquiry <span aria-hidden="true">→</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
