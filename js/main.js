@@ -87,7 +87,7 @@ function renderFooter() {
     <div class="container footer-grid">
       <div class="footer-brand">
         <a class="footer-logo" href="index.html" aria-label="Pathik Biotech home"><img src="assets/logo/pathik-logo.png" alt="Pathik Biotech logo" width="379" height="269" loading="lazy"></a>
-        
+        <p> Pathik Biotech PVT. LTD.</p>
       </div>
       <div><h2 class="footer-title">Quick Links</h2>
         <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
@@ -101,7 +101,7 @@ function renderFooter() {
         </ul></div>
     </div>
     <div class="footer-bottom"><div class="container">
-      <p>© 2024 Pathik Biotech Pvt. Ltd. All Rights Reserved.</p>
+      <p>© 2026 Pathik Biotech Pvt. Ltd. All Rights Reserved.</p>
       
     </div></div>
   </footer>
